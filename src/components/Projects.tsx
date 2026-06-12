@@ -10,7 +10,7 @@ const [showMore, setShowMore] = useState(false);
 return ( <section
    id="projects"
    className="px-4 lg:px-[8vw]"
- > <div className="w-full mx-auto py-24 space-y-20">
+ > <div className="w-full mx-auto py-16 space-y-12">
 
 
     {/* SECTION HEADER */}

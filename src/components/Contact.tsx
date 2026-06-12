@@ -8,7 +8,7 @@ export default function Contact() {
       id="contact"
       className="px-4 lg:px-[8vw]"
     >
-      <div className="max-w-6xl mx-auto py-24 text-center">
+      <div className="max-w-6xl mx-auto py-16 text-center">
 
         <motion.p
           initial={{ opacity: 0 }}
