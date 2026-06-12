@@ -33,9 +33,9 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="py-32 px-[8vw]"
+      className="px-4 lg:px-[8vw]"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto py-24">
 
       
 
@@ -43,7 +43,7 @@ export default function Skills() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="uppercase tracking-[0.4em] text-gray-500 mb-6"
+          className="uppercase tracking-[0.4em] text-amber-500 text-4xl underline mb-6 font-bold"
         >
           Tech Stack
         </motion.p>

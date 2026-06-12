@@ -6,15 +6,15 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-40 px-[8vw]"
+      className="px-4 lg:px-[8vw]"
     >
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto py-24 text-center">
 
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="uppercase tracking-[0.4em] text-gray-500 mb-6"
+          className="uppercase tracking-[0.4em] text-amber-500 text-4xl underline mb-6 font-bold"
         >
           Contact
         </motion.p>
@@ -49,7 +49,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-3 gap-6 mb-16">
 
           <a
-            href="mailto:YOUR_EMAIL"
+            href="mailto:jajithks01@gmail.com"
             className="
               border border-white/10
               rounded-3xl
@@ -70,7 +70,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://linkedin.com/in/YOUR_LINKEDIN"
+            href="https://www.linkedin.com/in/jaijithks01/"
             target="_blank"
             className="
               border border-white/10
@@ -120,19 +120,7 @@ export default function Contact() {
         <a
           href="/resume.pdf"
           download
-          className="
-            inline-flex
-            items-center
-            px-8
-            py-4
-            rounded-full
-            border
-            border-white/10
-            bg-white/5
-            hover:bg-white/10
-            transition-all
-            duration-300
-          "
+          className="inline-flex items-center justify-center px-8 py-4 rounded-full bg-cyan-400 text-black font-semibold shadow-lg shadow-cyan-400/30 transition hover:bg-cyan-300"
         >
           Download Resume ↓
         </a>

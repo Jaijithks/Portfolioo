@@ -9,14 +9,14 @@ export default function About() {
       id="about"
       className="min-h-screen flex items-center"
     >
-      <div className="w-full mx-auto px-8 grid lg:grid-cols-2 gap-16 items-center">
+      <div className="w-full mx-auto max-w-7xl px-4 lg:px-8 grid lg:grid-cols-2 gap-16 items-center">
 
        <div>
   <motion.p
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     viewport={{ once: true }}
-    className="uppercase tracking-[0.4em] text-gray-500 mb-6"
+    className="uppercase tracking-[0.4em] text-amber-500 text-4xl underline mb-6 font-bold"
   >
     ABOUT
   </motion.p>
