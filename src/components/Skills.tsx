@@ -35,7 +35,7 @@ export default function Skills() {
       id="skills"
       className="px-4 lg:px-[8vw]"
     >
-      <div className="max-w-7xl mx-auto py-24">
+      <div className="max-w-7xl mx-auto py-16">
 
       
 

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <main className="min-h-full space-y-32 px-4 md:px-8 lg:px-0 pt-28 pb-16">
+      <main className="min-h-full space-y-16 px-4 md:px-8 lg:px-0 pt-24 pb-12">
         <Hero />
         <About />
         <Projects />
