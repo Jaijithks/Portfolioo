@@ -9,17 +9,17 @@ const [showMore, setShowMore] = useState(false);
 
 return ( <section
    id="projects"
-   className="py-32 px-[8vw]"
- > <div className="max-w-7xl mx-auto">
+   className="px-4 lg:px-[8vw]"
+ > <div className="w-full mx-auto py-24 space-y-20">
 
-```
-////////////////////////////////////////////////////////////
+
+    {/* SECTION HEADER */}
 
     <motion.p
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      className="uppercase tracking-[0.4em] text-gray-500 mb-6"
+      className="uppercase tracking-[0.4em] text-amber-500 text-4xl underline mb-6 font-bold"
     >
       Projects
     </motion.p>
@@ -33,7 +33,9 @@ return ( <section
       Selected Work
     </motion.h2>
 
-//////////////////////////////////////////////
+    {/* ==========================
+        PROJECT 1
+    ========================== */}
 
     <motion.div
       initial={{ opacity: 0, y: 80 }}
@@ -102,31 +104,32 @@ return ( <section
 
         </div>
 
-        <div className="flex gap-8 mt-8">
-
+        <div className="flex flex-wrap gap-4 mt-8">
           <a
             href="https://github.com/Jaijithks/Restaurant-Full-Stack"
             target="_blank"
-            className="hover:text-gray-300 transition"
+            rel="noreferrer"
+            className="inline-flex items-center justify-center  bg-white text-black px-7 py-4 text-base font-semibold shadow-lg shadow-white/10 transition transform hover:-translate-y-0.5 hover:bg-slate-100"
           >
-            GitHub →
+            GitHub
           </a>
-
           <a
             href="https://restaurant-full-stack-w1bu.vercel.app/"
             target="_blank"
-            className="hover:text-gray-300 transition"
+            rel="noreferrer"
+            className="inline-flex items-center justify-center -full bg-amber-400 text-black px-7 py-4 text-base font-semibold shadow-lg shadow-amber-400/25 transition transform hover:-translate-y-0.5 hover:bg-amber-300"
           >
-            Live Demo →
+            Live Demo
           </a>
-
         </div>
 
       </div>
 
     </motion.div>
 
-  //////////////////////////////////////////////////////////////////////////////////
+    {/* ==========================
+        PROJECT 2
+    ========================== */}
 
     <motion.div
       initial={{ opacity: 0, y: 80 }}
@@ -173,24 +176,23 @@ return ( <section
 
           </div>
 
-          <div className="flex gap-8 mt-8">
-
+          <div className="flex flex-wrap gap-4 mt-8">
             <a
               href="https://github.com/Jaijithks/FINAL-PROJECT"
               target="_blank"
-              className="hover:text-gray-300 transition"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center  bg-white text-black px-7 py-4 text-base font-semibold shadow-lg shadow-white/10 transition transform hover:-translate-y-0.5 hover:bg-slate-100"
             >
-              GitHub →
+              GitHub
             </a>
-
             <a
               href="https://final-project-beta-brown.vercel.app/"
               target="_blank"
-              className="hover:text-gray-300 transition"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center  bg-amber-400 text-black px-7 py-4 text-base font-semibold shadow-lg shadow-amber-400/25 transition transform hover:-translate-y-0.5 hover:bg-amber-300"
             >
-              Live Demo →
+              Live Demo
             </a>
-
           </div>
 
         </div>
@@ -227,22 +229,31 @@ return ( <section
         SHOW MORE BUTTON
     ========================== */}
 
-    <div className="flex justify-center">
+    <div className="flex justify-center mt-16">
 
       <button
         onClick={() => setShowMore(!showMore)}
         className="
           group
-          px-8
-          py-4
+          inline-flex
+          items-center
+          justify-center
+          gap-3
           rounded-full
-          border
-          border-white/10
-          bg-white/5
-          backdrop-blur-md
-          hover:bg-white/10
+          bg-amber-400
+          px-12
+          py-5
+          text-black
+          text-lg
+          font-semibold
+          shadow-[0_30px_60px_-20px_rgba(251,191,36,0.9)]
+          ring-1
+          ring-amber-300/80
           transition-all
           duration-300
+          hover:-translate-y-0.5
+          hover:bg-amber-300
+          hover:shadow-[0_30px_80px_-30px_rgba(251,191,36,1)]
         "
       >
         <span className="flex items-center gap-3">
@@ -327,16 +338,15 @@ return ( <section
                 user interaction, and order management.
               </p>
 
-              <div className="mt-8">
-
+              <div className="mt-8 flex flex-wrap gap-4">
                 <a
                   href="https://github.com/Jaijithks/E-COMMERCE-website-basic-"
                   target="_blank"
-                  className="hover:text-gray-300 transition"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center bg-white text-black px-8 py-4 text-base font-semibold shadow-lg shadow-white/10 transition transform hover:-translate-y-0.5 hover:bg-slate-100"
                 >
-                  GitHub →
+                  GitHub
                 </a>
-
               </div>
 
             </div>
@@ -346,15 +356,8 @@ return ( <section
               <a
                 href="https://github.com/Jaijithks"
                 target="_blank"
-                className="
-                  inline-flex
-                  items-center
-                  gap-3
-                  text-xl
-                  font-semibold
-                  hover:text-gray-300
-                  transition
-                "
+                rel="noreferrer"
+                className="inline-flex items-center justify-center rounded-full bg-amber-400 text-black px-8 py-4 text-base font-semibold shadow-lg shadow-amber-400/25 transition transform hover:-translate-y-0.5 hover:bg-amber-300"
               >
                 Explore My GitHub →
               </a>
