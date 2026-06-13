@@ -12,7 +12,7 @@ export default function Navbar() {
         <a
           href="#"
           aria-label="Home"
-          className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-white/20 text-base sm:text-lg font-extrabold bg-gradient-to-br from-amber-400/12 via-white/3 to-transparent shadow-[0_6px_18px_-6px_rgba(0,0,0,0.6)] hover:scale-105 transition-transform"
+          className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-full border border-white/20 text-base sm:text-lg font-extrabold bg-gradient-to-br from-amber-400/12 via-white/3 to-transparent shadow-[0_6px_18px_-6px_rgba(0,0,0,0.6)] hover:scale-105  hover:bg-blue-500 transition-transform"
         >
           JK
         </a>
