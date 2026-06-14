@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
 
-## Getting Started
+A modern and interactive portfolio website built to showcase my projects, skills, and development journey.
 
-First, run the development server:
+## Live Demo
+
+https://portfolioo-sigma-lovat.vercel.app/
+
+## Features
+
+* Interactive cinematic hero section
+* Smooth scrolling experience
+* Modern responsive design
+* Project showcase with live demos
+* Expandable project gallery
+* Skills and technology stack section
+* Contact section with direct links
+* Optimized for desktop and mobile devices
+
+## Built With
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+
+### Deployment
+
+* Vercel
+
+## Featured Projects
+
+### Restaurant Reservation System
+
+A full-stack restaurant reservation platform with booking management, customer interactions, and administrative controls.
+
+**Live Demo:**
+https://restaurant-full-stack-w1bu.vercel.app/
+
+**GitHub:**
+https://github.com/Jaijithks/Restaurant-Full-Stack
+
+---
+
+### ReadEase Automatic Rain Meter
+
+An IoT-based rainfall monitoring system capable of collecting and analyzing rainfall data efficiently.
+
+**Live Demo:**
+https://final-project-beta-brown.vercel.app/
+
+**GitHub:**
+https://github.com/Jaijithks/FINAL-PROJECT
+
+---
+
+### E-Commerce Platform
+
+A responsive e-commerce application featuring product listings, cart functionality, and user interactions.
+
+**Live Demo:**
+https://e-commerce-website-basic-murex.vercel.app/
+
+**GitHub:**
+https://github.com/Jaijithks/E-COMMERCE-website-basic-
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Jaijithks/your-portfolio-repository.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contact
 
-## Learn More
+Email: [jajithks01@gmail.com](mailto:jajithks01@gmail.com)
 
-To learn more about Next.js, take a look at the following resources:
+GitHub:
+https://github.com/Jaijithks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built and designed by Jaijith KS.
